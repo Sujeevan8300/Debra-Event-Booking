@@ -1,0 +1,74 @@
+/* Reset some default styles for consistent rendering */
+body, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for the admin dashboard */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    background-color: #007bff;
+}
+
+ul {
+    list-style-type: none;
+    background-color: #333;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #555;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for content sections */
+.container h2 {
+    margin-top: 20px;
+}
+
+/* Add more styles as needed */
+
+/* Example: Hide the event management section by default */
+.hidden {
+    display: none;
+}
+
+/* Example: Style buttons */
+.button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}

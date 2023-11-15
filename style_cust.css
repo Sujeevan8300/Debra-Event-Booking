@@ -1,0 +1,179 @@
+/* Global Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navigation Styles */
+
+nav {
+    background-color: #007bff;
+    padding: 10px 0;
+    color: white;
+}
+
+nav h1 {
+    margin: 0;
+    display: inline;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline;
+}
+
+li {
+    display: inline;
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section Styles */
+
+.hero {
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 0;
+}
+
+/* About Section Styles */
+
+.about {
+    padding: 40px 0;
+}
+
+.about h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.about p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Events Section Styles */
+
+.events {
+    padding: 40px 0;
+}
+
+.events h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.event-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.event-table th, .event-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.event-table th {
+    background-color: #007bff;
+    color: white;
+}
+
+.event-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.event-table tr:hover {
+    background-color: #e0e0e0;
+}
+
+.book-button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.book-button:hover {
+    background-color: #218838;
+}
+
+/* Partners Section Styles */
+
+.partners {
+    padding: 40px 0;
+}
+
+.partner-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.partner {
+    background-color: #f9f9f9;
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+/* Profile Section Styles */
+
+.profile {
+    padding: 40px 0;
+}
+
+.profile h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.profile p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Footer Styles */
+
+.footer {
+    background-color: #f9f9f9;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Add more CSS styles as needed to match your design */
